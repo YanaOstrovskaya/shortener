@@ -4,8 +4,6 @@
 Installation
 ============
 
-## Installation
-
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/6.x/installation)
 
 ## Clone the repository
@@ -17,8 +15,14 @@ Please check the official laravel installation guide for server requirements bef
 
 cd shortener
 
+## Build Setup
 
-# rename .env.example to .env and pass in this file settings
+## first what you need - install package dependencies
+``` bash
+composer install
+```
+
+# copy .env.example to .env and pass in this file settings
 cp .env.example .env
 
 # generate key for our project
