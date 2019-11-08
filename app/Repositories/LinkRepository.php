@@ -2,7 +2,7 @@
 
 namespace App\Repositories;
 
-use App\Link;
+use App\Models\Link;
 use App\Repositories\Interfaces\LinkRepositoryInterface;
 
 class LinkRepository implements LinkRepositoryInterface

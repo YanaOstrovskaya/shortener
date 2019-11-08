@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\LinkStore;
-use App\Link;
+use App\Models\Link;
 use App\Services\LinkService;
 use App\Repositories\LinkRepository;
 

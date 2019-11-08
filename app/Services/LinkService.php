@@ -2,7 +2,7 @@
 
 namespace App\Services;
 
-use App\Link;
+use App\Models\Link;
 use Illuminate\Support\Str;
 
 /**
